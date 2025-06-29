@@ -144,7 +144,7 @@ _And many more..._
 
 ```bash
 git clone <repository-url>
-cd Murf_Guide_Bot
+cd Murf_Tour_Bot
 pip install -r requirements.txt
 ```
 
