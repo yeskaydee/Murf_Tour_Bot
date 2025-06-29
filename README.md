@@ -162,7 +162,7 @@ export ORS_API_KEY="your_ors_key"
 ### Running the Bot
 
 ```bash
-python app.py
+python -m bot.handlers
 ```
 
 ## **Use Cases & Examples**
