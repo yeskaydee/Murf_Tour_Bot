@@ -277,8 +277,8 @@ def azure_transcribe_audio(file_path):
     Send audio file to Azure OpenAI transcription endpoint and return the transcription text.
     """
     import requests
-    url = "https://ironk-mcg85dcf-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4o-transcribe/audio/transcriptions?api-version=2025-03-01-preview"
-    api_key = "3mZxBeyiQ446wX38qbiv1CkHqJ18gBhXFQjoBzavJ9tXRL3FoqRDJQQJ99BFACHYHv6XJ3w3AAAAACOGI0eR"  # Replace with your actual key
+    url = transcription_endpoint
+    api_key = API_KEY  # Replace with your actual key
     headers = {
         "Authorization": f"Bearer {api_key}",
     }
