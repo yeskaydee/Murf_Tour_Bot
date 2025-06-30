@@ -1,0 +1,33 @@
+# ✅ Core
+flask
+python-telegram-bot
+python-dotenv
+requests
+aiohttp
+websockets
+uuid
+Pillow
+murf 
+
+# ✅ Murf Audio TTS
+pydub
+ffmpeg-python
+websockets
+
+# ✅ Whisper STT
+openai-whisper  # OR faster-whisper (smaller & faster)
+torch
+torchaudio
+
+# ✅ Image Handling (for image input support)
+opencv-python
+Pillow
+
+# ✅ Geolocation + Reverse Geocoding
+geopy
+
+# ✅ LLM Integration (for OpenAI or Azure)
+openai
+
+
+flask_cors
